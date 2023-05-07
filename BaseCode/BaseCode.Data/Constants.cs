@@ -74,20 +74,6 @@
             public const string ApplicantSuccessDelete = "Applicant is deleted successfully.";
         }
 
-        public class Application
-        {
-            // Sort Keys
-            public const string ApplicationID = "application_id";
-            public const string ApplicationCode = "application_code";
-
-            // Messages
-            public const string ApplicationEntryInvalid = "Applicant entry is not valid!";
-            public const string ApplicationNotExist = "Applicant does not exist.";
-            public const string ApplicationDoesNotExists = "Applicant does not exist.";
-            public const string ApplicationSuccessAdd = "Applicant added successfully.";
-            public const string ApplicationSuccessEdit = "Applicant is updated successfully.";
-            public const string ApplicationSuccessDelete = "Applicant is deleted successfully.";
-        }
 
         public class Position
         {

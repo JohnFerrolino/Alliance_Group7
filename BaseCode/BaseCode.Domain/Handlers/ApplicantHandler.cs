@@ -51,12 +51,12 @@ namespace BaseCode.Domain.Handlers
                 }
                 else
                 {
-                    validationErrors.Add(new ValidationResult(Constants.Student.StudentNotExist));
+                    validationErrors.Add(new ValidationResult(Constants.Applicant.ApplicantDoesNotExists));
                 }
             }
             else
             {
-                validationErrors.Add(new ValidationResult(Constants.Student.StudentEntryInvalid));
+                validationErrors.Add(new ValidationResult(Constants.Applicant.ApplicantEntryInvalid));
             }
 
             return validationErrors;

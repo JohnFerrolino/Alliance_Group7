@@ -17,9 +17,6 @@ namespace BaseCode.API
                 cfg.CreateMap<Applicant, Applicant>();
                 cfg.CreateMap<ApplicantViewModel, Applicant>();
 
-                cfg.CreateMap<Application, ApplicationViewModel>();
-                cfg.CreateMap<ApplicationViewModel, Application>();
-
                 cfg.CreateMap<Position, PositionViewModel>()
                 .ForMember(dest => dest.PositionRequirements, opt => opt.MapFrom(src => src.PositionRequirements.Select(res => res.Description)));
                 cfg.CreateMap<PositionViewModel, Position>()

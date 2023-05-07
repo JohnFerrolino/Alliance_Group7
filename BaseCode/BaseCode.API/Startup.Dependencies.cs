@@ -19,14 +19,12 @@ namespace BaseCode.API
             // Services
             services.AddScoped<IUserService, UserService>();
             services.AddScoped<IApplicantService, ApplicantService>();
-            services.AddScoped<IApplicationService, ApplicationService>();
-            services.AddScoped<IPositionService, PositionService>();
+             services.AddScoped<IPositionService, PositionService>();
             services.AddScoped<IStatusService, StatusService>();            
 
             // Repositories
             services.AddScoped<IUserRepository, UserRepository>();
             services.AddScoped<IApplicantRepository, ApplicantRepository>();
-            services.AddScoped<IApplicationRepository, ApplicationRepository>();
             services.AddScoped<IPositionRepository, PositionRepository>();
             services.AddScoped<IStatusRepository, StatusRepository>();
 
