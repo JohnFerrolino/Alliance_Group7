@@ -1,0 +1,130 @@
+C:\Users\Owner\Documents\Visual Studio 2017\Projects\BaseCode\BaseCode.API\obj\Debug\netcoreapp2.2\BaseCode.API.csprojAssemblyReference.cache
+C:\Users\Owner\Documents\Visual Studio 2017\Projects\BaseCode\BaseCode.API\obj\Debug\netcoreapp2.2\BaseCode.API.csproj.CoreCompileInputs.cache
+C:\Users\Owner\Documents\Visual Studio 2017\Projects\BaseCode\BaseCode.API\obj\Debug\netcoreapp2.2\BaseCode.API.RazorAssemblyInfo.cache
+C:\Users\Owner\Documents\Visual Studio 2017\Projects\BaseCode\BaseCode.API\obj\Debug\netcoreapp2.2\BaseCode.API.RazorAssemblyInfo.cs
+C:\Users\Owner\Documents\Visual Studio 2017\Projects\BaseCode\BaseCode.API\obj\Debug\netcoreapp2.2\BaseCode.API.AssemblyInfoInputs.cache
+C:\Users\Owner\Documents\Visual Studio 2017\Projects\BaseCode\BaseCode.API\obj\Debug\netcoreapp2.2\BaseCode.API.AssemblyInfo.cs
+C:\Users\Owner\Documents\Visual Studio 2017\Projects\BaseCode\BaseCode.API\bin\Debug\netcoreapp2.2\BaseCode.API.deps.json
+C:\Users\Owner\Documents\Visual Studio 2017\Projects\BaseCode\BaseCode.API\bin\Debug\netcoreapp2.2\BaseCode.API.runtimeconfig.json
+C:\Users\Owner\Documents\Visual Studio 2017\Projects\BaseCode\BaseCode.API\bin\Debug\netcoreapp2.2\BaseCode.API.runtimeconfig.dev.json
+C:\Users\Owner\Documents\Visual Studio 2017\Projects\BaseCode\BaseCode.API\bin\Debug\netcoreapp2.2\BaseCode.API.dll
+C:\Users\Owner\Documents\Visual Studio 2017\Projects\BaseCode\BaseCode.API\bin\Debug\netcoreapp2.2\BaseCode.API.pdb
+C:\Users\Owner\Documents\Visual Studio 2017\Projects\BaseCode\BaseCode.API\bin\Debug\netcoreapp2.2\BaseCode.API.Views.dll
+C:\Users\Owner\Documents\Visual Studio 2017\Projects\BaseCode\BaseCode.API\bin\Debug\netcoreapp2.2\BaseCode.API.Views.pdb
+C:\Users\Owner\Documents\Visual Studio 2017\Projects\BaseCode\BaseCode.API\bin\Debug\netcoreapp2.2\BaseCode.Data.dll
+C:\Users\Owner\Documents\Visual Studio 2017\Projects\BaseCode\BaseCode.API\bin\Debug\netcoreapp2.2\BaseCode.Domain.dll
+C:\Users\Owner\Documents\Visual Studio 2017\Projects\BaseCode\BaseCode.API\bin\Debug\netcoreapp2.2\BaseCode.Data.pdb
+C:\Users\Owner\Documents\Visual Studio 2017\Projects\BaseCode\BaseCode.API\bin\Debug\netcoreapp2.2\BaseCode.Domain.pdb
+C:\Users\Owner\Documents\Visual Studio 2017\Projects\BaseCode\BaseCode.API\obj\Debug\netcoreapp2.2\BaseCode.API.TagHelpers.input.cache
+C:\Users\Owner\Documents\Visual Studio 2017\Projects\BaseCode\BaseCode.API\obj\Debug\netcoreapp2.2\BaseCode.API.TagHelpers.output.cache
+C:\Users\Owner\Documents\Visual Studio 2017\Projects\BaseCode\BaseCode.API\obj\Debug\netcoreapp2.2\BaseCode.API.RazorCoreGenerate.cache
+C:\Users\Owner\Documents\Visual Studio 2017\Projects\BaseCode\BaseCode.API\obj\Debug\netcoreapp2.2\Razor\Views\Error\Error.g.cshtml.cs
+C:\Users\Owner\Documents\Visual Studio 2017\Projects\BaseCode\BaseCode.API\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\Owner\Documents\Visual Studio 2017\Projects\BaseCode\BaseCode.API\obj\Debug\netcoreapp2.2\BaseCode.API.RazorTargetAssemblyInfo.cache
+C:\Users\Owner\Documents\Visual Studio 2017\Projects\BaseCode\BaseCode.API\obj\Debug\netcoreapp2.2\BaseCode.API.RazorTargetAssemblyInfo.cs
+C:\Users\Owner\Documents\Visual Studio 2017\Projects\BaseCode\BaseCode.API\obj\Debug\netcoreapp2.2\BaseCode.API.Views.pdb
+C:\Users\Owner\Documents\Visual Studio 2017\Projects\BaseCode\BaseCode.API\obj\Debug\netcoreapp2.2\BaseCode.API.csproj.CopyComplete
+C:\Users\Owner\Documents\Visual Studio 2017\Projects\BaseCode\BaseCode.API\obj\Debug\netcoreapp2.2\BaseCode.API.dll
+C:\Users\Owner\Documents\Visual Studio 2017\Projects\BaseCode\BaseCode.API\obj\Debug\netcoreapp2.2\BaseCode.API.pdb
+D:\Projects\PMO Works\TFS\BaseCodes\ASP .NET Core API v2\BaseCode\BaseCode.API\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+D:\Projects\PMO Works\TFS\BaseCodes\ASP .NET Core API v2\BaseCode\BaseCode.API\bin\Debug\netcoreapp2.2\appsettings.Development.json
+D:\Projects\PMO Works\TFS\BaseCodes\ASP .NET Core API v2\BaseCode\BaseCode.API\bin\Debug\netcoreapp2.2\appsettings.json
+D:\Projects\PMO Works\TFS\BaseCodes\ASP .NET Core API v2\BaseCode\BaseCode.API\bin\Debug\netcoreapp2.2\appsettings_default.Development.json
+D:\Projects\PMO Works\TFS\BaseCodes\ASP .NET Core API v2\BaseCode\BaseCode.API\bin\Debug\netcoreapp2.2\appsettings_default.json
+D:\Projects\PMO Works\TFS\BaseCodes\ASP .NET Core API v2\BaseCode\BaseCode.API\bin\Debug\netcoreapp2.2\BaseCode.API.deps.json
+D:\Projects\PMO Works\TFS\BaseCodes\ASP .NET Core API v2\BaseCode\BaseCode.API\bin\Debug\netcoreapp2.2\BaseCode.API.runtimeconfig.json
+D:\Projects\PMO Works\TFS\BaseCodes\ASP .NET Core API v2\BaseCode\BaseCode.API\bin\Debug\netcoreapp2.2\BaseCode.API.runtimeconfig.dev.json
+D:\Projects\PMO Works\TFS\BaseCodes\ASP .NET Core API v2\BaseCode\BaseCode.API\bin\Debug\netcoreapp2.2\BaseCode.API.dll
+D:\Projects\PMO Works\TFS\BaseCodes\ASP .NET Core API v2\BaseCode\BaseCode.API\bin\Debug\netcoreapp2.2\BaseCode.API.pdb
+D:\Projects\PMO Works\TFS\BaseCodes\ASP .NET Core API v2\BaseCode\BaseCode.API\bin\Debug\netcoreapp2.2\BaseCode.API.Views.dll
+D:\Projects\PMO Works\TFS\BaseCodes\ASP .NET Core API v2\BaseCode\BaseCode.API\bin\Debug\netcoreapp2.2\BaseCode.API.Views.pdb
+D:\Projects\PMO Works\TFS\BaseCodes\ASP .NET Core API v2\BaseCode\BaseCode.API\bin\Debug\netcoreapp2.2\BaseCode.Data.dll
+D:\Projects\PMO Works\TFS\BaseCodes\ASP .NET Core API v2\BaseCode\BaseCode.API\bin\Debug\netcoreapp2.2\BaseCode.Domain.dll
+D:\Projects\PMO Works\TFS\BaseCodes\ASP .NET Core API v2\BaseCode\BaseCode.API\bin\Debug\netcoreapp2.2\BaseCode.Data.pdb
+D:\Projects\PMO Works\TFS\BaseCodes\ASP .NET Core API v2\BaseCode\BaseCode.API\bin\Debug\netcoreapp2.2\BaseCode.Domain.pdb
+D:\Projects\PMO Works\TFS\BaseCodes\ASP .NET Core API v2\BaseCode\BaseCode.API\obj\Debug\netcoreapp2.2\BaseCode.API.csprojAssemblyReference.cache
+D:\Projects\PMO Works\TFS\BaseCodes\ASP .NET Core API v2\BaseCode\BaseCode.API\obj\Debug\netcoreapp2.2\BaseCode.API.AssemblyInfoInputs.cache
+D:\Projects\PMO Works\TFS\BaseCodes\ASP .NET Core API v2\BaseCode\BaseCode.API\obj\Debug\netcoreapp2.2\BaseCode.API.AssemblyInfo.cs
+D:\Projects\PMO Works\TFS\BaseCodes\ASP .NET Core API v2\BaseCode\BaseCode.API\obj\Debug\netcoreapp2.2\BaseCode.API.csproj.CoreCompileInputs.cache
+D:\Projects\PMO Works\TFS\BaseCodes\ASP .NET Core API v2\BaseCode\BaseCode.API\obj\Debug\netcoreapp2.2\BaseCode.API.RazorAssemblyInfo.cache
+D:\Projects\PMO Works\TFS\BaseCodes\ASP .NET Core API v2\BaseCode\BaseCode.API\obj\Debug\netcoreapp2.2\BaseCode.API.RazorAssemblyInfo.cs
+D:\Projects\PMO Works\TFS\BaseCodes\ASP .NET Core API v2\BaseCode\BaseCode.API\obj\Debug\netcoreapp2.2\BaseCode.API.TagHelpers.input.cache
+D:\Projects\PMO Works\TFS\BaseCodes\ASP .NET Core API v2\BaseCode\BaseCode.API\obj\Debug\netcoreapp2.2\BaseCode.API.TagHelpers.output.cache
+D:\Projects\PMO Works\TFS\BaseCodes\ASP .NET Core API v2\BaseCode\BaseCode.API\obj\Debug\netcoreapp2.2\BaseCode.API.RazorCoreGenerate.cache
+D:\Projects\PMO Works\TFS\BaseCodes\ASP .NET Core API v2\BaseCode\BaseCode.API\obj\Debug\netcoreapp2.2\Razor\Views\Error\Error.cshtml.g.cs
+D:\Projects\PMO Works\TFS\BaseCodes\ASP .NET Core API v2\BaseCode\BaseCode.API\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.cshtml.g.cs
+D:\Projects\PMO Works\TFS\BaseCodes\ASP .NET Core API v2\BaseCode\BaseCode.API\obj\Debug\netcoreapp2.2\BaseCode.API.RazorTargetAssemblyInfo.cache
+D:\Projects\PMO Works\TFS\BaseCodes\ASP .NET Core API v2\BaseCode\BaseCode.API\obj\Debug\netcoreapp2.2\BaseCode.API.RazorTargetAssemblyInfo.cs
+D:\Projects\PMO Works\TFS\BaseCodes\ASP .NET Core API v2\BaseCode\BaseCode.API\obj\Debug\netcoreapp2.2\BaseCode.API.Views.pdb
+D:\Projects\PMO Works\TFS\BaseCodes\ASP .NET Core API v2\BaseCode\BaseCode.API\obj\Debug\netcoreapp2.2\BaseCode.API.csproj.CopyComplete
+D:\Projects\PMO Works\TFS\BaseCodes\ASP .NET Core API v2\BaseCode\BaseCode.API\obj\Debug\netcoreapp2.2\BaseCode.API.dll
+D:\Projects\PMO Works\TFS\BaseCodes\ASP .NET Core API v2\BaseCode\BaseCode.API\obj\Debug\netcoreapp2.2\BaseCode.API.pdb
+D:\Projects\PMO Works\TFS\BaseCodes\ASP .NET Core API v2\BaseCode\BaseCode.API\obj\Debug\netcoreapp2.2\BaseCode.API.genruntimeconfig.cache
+D:\Projects\PMO Works\TFS\BaseCodes\ASP .NET Core API\BaseCode\BaseCode.API\bin\Debug\netcoreapp2.2\appsettings.Development.json
+D:\Projects\PMO Works\TFS\BaseCodes\ASP .NET Core API\BaseCode\BaseCode.API\bin\Debug\netcoreapp2.2\appsettings.json
+D:\Projects\PMO Works\TFS\BaseCodes\ASP .NET Core API\BaseCode\BaseCode.API\bin\Debug\netcoreapp2.2\appsettings_default.Development.json
+D:\Projects\PMO Works\TFS\BaseCodes\ASP .NET Core API\BaseCode\BaseCode.API\bin\Debug\netcoreapp2.2\appsettings_default.json
+D:\Projects\PMO Works\TFS\BaseCodes\ASP .NET Core API\BaseCode\BaseCode.API\bin\Debug\netcoreapp2.2\BaseCode.API.deps.json
+D:\Projects\PMO Works\TFS\BaseCodes\ASP .NET Core API\BaseCode\BaseCode.API\bin\Debug\netcoreapp2.2\BaseCode.API.runtimeconfig.json
+D:\Projects\PMO Works\TFS\BaseCodes\ASP .NET Core API\BaseCode\BaseCode.API\bin\Debug\netcoreapp2.2\BaseCode.API.runtimeconfig.dev.json
+D:\Projects\PMO Works\TFS\BaseCodes\ASP .NET Core API\BaseCode\BaseCode.API\bin\Debug\netcoreapp2.2\BaseCode.API.dll
+D:\Projects\PMO Works\TFS\BaseCodes\ASP .NET Core API\BaseCode\BaseCode.API\bin\Debug\netcoreapp2.2\BaseCode.API.pdb
+D:\Projects\PMO Works\TFS\BaseCodes\ASP .NET Core API\BaseCode\BaseCode.API\bin\Debug\netcoreapp2.2\BaseCode.API.Views.dll
+D:\Projects\PMO Works\TFS\BaseCodes\ASP .NET Core API\BaseCode\BaseCode.API\bin\Debug\netcoreapp2.2\BaseCode.API.Views.pdb
+D:\Projects\PMO Works\TFS\BaseCodes\ASP .NET Core API\BaseCode\BaseCode.API\bin\Debug\netcoreapp2.2\BaseCode.Data.dll
+D:\Projects\PMO Works\TFS\BaseCodes\ASP .NET Core API\BaseCode\BaseCode.API\bin\Debug\netcoreapp2.2\BaseCode.Domain.dll
+D:\Projects\PMO Works\TFS\BaseCodes\ASP .NET Core API\BaseCode\BaseCode.API\bin\Debug\netcoreapp2.2\BaseCode.Data.pdb
+D:\Projects\PMO Works\TFS\BaseCodes\ASP .NET Core API\BaseCode\BaseCode.API\bin\Debug\netcoreapp2.2\BaseCode.Domain.pdb
+D:\Projects\PMO Works\TFS\BaseCodes\ASP .NET Core API\BaseCode\BaseCode.API\obj\Debug\netcoreapp2.2\BaseCode.API.csproj.AssemblyReference.cache
+D:\Projects\PMO Works\TFS\BaseCodes\ASP .NET Core API\BaseCode\BaseCode.API\obj\Debug\netcoreapp2.2\BaseCode.API.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\PMO Works\TFS\BaseCodes\ASP .NET Core API\BaseCode\BaseCode.API\obj\Debug\netcoreapp2.2\BaseCode.API.AssemblyInfoInputs.cache
+D:\Projects\PMO Works\TFS\BaseCodes\ASP .NET Core API\BaseCode\BaseCode.API\obj\Debug\netcoreapp2.2\BaseCode.API.AssemblyInfo.cs
+D:\Projects\PMO Works\TFS\BaseCodes\ASP .NET Core API\BaseCode\BaseCode.API\obj\Debug\netcoreapp2.2\BaseCode.API.csproj.CoreCompileInputs.cache
+D:\Projects\PMO Works\TFS\BaseCodes\ASP .NET Core API\BaseCode\BaseCode.API\obj\Debug\netcoreapp2.2\BaseCode.API.RazorAssemblyInfo.cache
+D:\Projects\PMO Works\TFS\BaseCodes\ASP .NET Core API\BaseCode\BaseCode.API\obj\Debug\netcoreapp2.2\BaseCode.API.RazorAssemblyInfo.cs
+D:\Projects\PMO Works\TFS\BaseCodes\ASP .NET Core API\BaseCode\BaseCode.API\obj\Debug\netcoreapp2.2\BaseCode.API.TagHelpers.input.cache
+D:\Projects\PMO Works\TFS\BaseCodes\ASP .NET Core API\BaseCode\BaseCode.API\obj\Debug\netcoreapp2.2\BaseCode.API.TagHelpers.output.cache
+D:\Projects\PMO Works\TFS\BaseCodes\ASP .NET Core API\BaseCode\BaseCode.API\obj\Debug\netcoreapp2.2\BaseCode.API.RazorCoreGenerate.cache
+D:\Projects\PMO Works\TFS\BaseCodes\ASP .NET Core API\BaseCode\BaseCode.API\obj\Debug\netcoreapp2.2\Razor\Views\Error\Error.cshtml.g.cs
+D:\Projects\PMO Works\TFS\BaseCodes\ASP .NET Core API\BaseCode\BaseCode.API\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.cshtml.g.cs
+D:\Projects\PMO Works\TFS\BaseCodes\ASP .NET Core API\BaseCode\BaseCode.API\obj\Debug\netcoreapp2.2\BaseCode.API.RazorTargetAssemblyInfo.cache
+D:\Projects\PMO Works\TFS\BaseCodes\ASP .NET Core API\BaseCode\BaseCode.API\obj\Debug\netcoreapp2.2\BaseCode.API.RazorTargetAssemblyInfo.cs
+D:\Projects\PMO Works\TFS\BaseCodes\ASP .NET Core API\BaseCode\BaseCode.API\obj\Debug\netcoreapp2.2\BaseCode.API.Views.pdb
+D:\Projects\PMO Works\TFS\BaseCodes\ASP .NET Core API\BaseCode\BaseCode.API\obj\Debug\netcoreapp2.2\BaseCode.API.csproj.CopyComplete
+D:\Projects\PMO Works\TFS\BaseCodes\ASP .NET Core API\BaseCode\BaseCode.API\obj\Debug\netcoreapp2.2\BaseCode.API.dll
+D:\Projects\PMO Works\TFS\BaseCodes\ASP .NET Core API\BaseCode\BaseCode.API\obj\Debug\netcoreapp2.2\BaseCode.API.pdb
+D:\Projects\PMO Works\TFS\BaseCodes\ASP .NET Core API\BaseCode\BaseCode.API\obj\Debug\netcoreapp2.2\BaseCode.API.genruntimeconfig.cache
+C:\Users\Crim\Desktop\Group7_Alliance\ASP .NET Core API\BaseCode\BaseCode.API\bin\Debug\netcoreapp2.2\appsettings.Development.json
+C:\Users\Crim\Desktop\Group7_Alliance\ASP .NET Core API\BaseCode\BaseCode.API\bin\Debug\netcoreapp2.2\appsettings.json
+C:\Users\Crim\Desktop\Group7_Alliance\ASP .NET Core API\BaseCode\BaseCode.API\bin\Debug\netcoreapp2.2\appsettings_default.Development.json
+C:\Users\Crim\Desktop\Group7_Alliance\ASP .NET Core API\BaseCode\BaseCode.API\bin\Debug\netcoreapp2.2\appsettings_default.json
+C:\Users\Crim\Desktop\Group7_Alliance\ASP .NET Core API\BaseCode\BaseCode.API\bin\Debug\netcoreapp2.2\BaseCode.API.deps.json
+C:\Users\Crim\Desktop\Group7_Alliance\ASP .NET Core API\BaseCode\BaseCode.API\bin\Debug\netcoreapp2.2\BaseCode.API.runtimeconfig.json
+C:\Users\Crim\Desktop\Group7_Alliance\ASP .NET Core API\BaseCode\BaseCode.API\bin\Debug\netcoreapp2.2\BaseCode.API.runtimeconfig.dev.json
+C:\Users\Crim\Desktop\Group7_Alliance\ASP .NET Core API\BaseCode\BaseCode.API\bin\Debug\netcoreapp2.2\BaseCode.API.dll
+C:\Users\Crim\Desktop\Group7_Alliance\ASP .NET Core API\BaseCode\BaseCode.API\bin\Debug\netcoreapp2.2\BaseCode.API.pdb
+C:\Users\Crim\Desktop\Group7_Alliance\ASP .NET Core API\BaseCode\BaseCode.API\bin\Debug\netcoreapp2.2\BaseCode.API.Views.dll
+C:\Users\Crim\Desktop\Group7_Alliance\ASP .NET Core API\BaseCode\BaseCode.API\bin\Debug\netcoreapp2.2\BaseCode.API.Views.pdb
+C:\Users\Crim\Desktop\Group7_Alliance\ASP .NET Core API\BaseCode\BaseCode.API\bin\Debug\netcoreapp2.2\BaseCode.Data.dll
+C:\Users\Crim\Desktop\Group7_Alliance\ASP .NET Core API\BaseCode\BaseCode.API\bin\Debug\netcoreapp2.2\BaseCode.Domain.dll
+C:\Users\Crim\Desktop\Group7_Alliance\ASP .NET Core API\BaseCode\BaseCode.API\bin\Debug\netcoreapp2.2\BaseCode.Data.pdb
+C:\Users\Crim\Desktop\Group7_Alliance\ASP .NET Core API\BaseCode\BaseCode.API\bin\Debug\netcoreapp2.2\BaseCode.Domain.pdb
+C:\Users\Crim\Desktop\Group7_Alliance\ASP .NET Core API\BaseCode\BaseCode.API\obj\Debug\netcoreapp2.2\BaseCode.API.csproj.AssemblyReference.cache
+C:\Users\Crim\Desktop\Group7_Alliance\ASP .NET Core API\BaseCode\BaseCode.API\obj\Debug\netcoreapp2.2\BaseCode.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Crim\Desktop\Group7_Alliance\ASP .NET Core API\BaseCode\BaseCode.API\obj\Debug\netcoreapp2.2\BaseCode.API.AssemblyInfoInputs.cache
+C:\Users\Crim\Desktop\Group7_Alliance\ASP .NET Core API\BaseCode\BaseCode.API\obj\Debug\netcoreapp2.2\BaseCode.API.AssemblyInfo.cs
+C:\Users\Crim\Desktop\Group7_Alliance\ASP .NET Core API\BaseCode\BaseCode.API\obj\Debug\netcoreapp2.2\BaseCode.API.csproj.CoreCompileInputs.cache
+C:\Users\Crim\Desktop\Group7_Alliance\ASP .NET Core API\BaseCode\BaseCode.API\obj\Debug\netcoreapp2.2\BaseCode.API.RazorAssemblyInfo.cache
+C:\Users\Crim\Desktop\Group7_Alliance\ASP .NET Core API\BaseCode\BaseCode.API\obj\Debug\netcoreapp2.2\BaseCode.API.RazorAssemblyInfo.cs
+C:\Users\Crim\Desktop\Group7_Alliance\ASP .NET Core API\BaseCode\BaseCode.API\obj\Debug\netcoreapp2.2\BaseCode.API.TagHelpers.input.cache
+C:\Users\Crim\Desktop\Group7_Alliance\ASP .NET Core API\BaseCode\BaseCode.API\obj\Debug\netcoreapp2.2\BaseCode.API.TagHelpers.output.cache
+C:\Users\Crim\Desktop\Group7_Alliance\ASP .NET Core API\BaseCode\BaseCode.API\obj\Debug\netcoreapp2.2\BaseCode.API.RazorCoreGenerate.cache
+C:\Users\Crim\Desktop\Group7_Alliance\ASP .NET Core API\BaseCode\BaseCode.API\obj\Debug\netcoreapp2.2\Razor\Views\Error\Error.cshtml.g.cs
+C:\Users\Crim\Desktop\Group7_Alliance\ASP .NET Core API\BaseCode\BaseCode.API\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\Crim\Desktop\Group7_Alliance\ASP .NET Core API\BaseCode\BaseCode.API\obj\Debug\netcoreapp2.2\BaseCode.API.RazorTargetAssemblyInfo.cache
+C:\Users\Crim\Desktop\Group7_Alliance\ASP .NET Core API\BaseCode\BaseCode.API\obj\Debug\netcoreapp2.2\BaseCode.API.RazorTargetAssemblyInfo.cs
+C:\Users\Crim\Desktop\Group7_Alliance\ASP .NET Core API\BaseCode\BaseCode.API\obj\Debug\netcoreapp2.2\BaseCode.API.Views.pdb
+C:\Users\Crim\Desktop\Group7_Alliance\ASP .NET Core API\BaseCode\BaseCode.API\obj\Debug\netcoreapp2.2\BaseCode.API.csproj.CopyComplete
+C:\Users\Crim\Desktop\Group7_Alliance\ASP .NET Core API\BaseCode\BaseCode.API\obj\Debug\netcoreapp2.2\BaseCode.API.dll
+C:\Users\Crim\Desktop\Group7_Alliance\ASP .NET Core API\BaseCode\BaseCode.API\obj\Debug\netcoreapp2.2\BaseCode.API.pdb
+C:\Users\Crim\Desktop\Group7_Alliance\ASP .NET Core API\BaseCode\BaseCode.API\obj\Debug\netcoreapp2.2\BaseCode.API.genruntimeconfig.cache
