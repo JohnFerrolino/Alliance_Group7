@@ -8,6 +8,7 @@
 
 	<ItemGroup>
 		<PackageReference Include="AutoMapper" Version="8.0.0" />
+		<PackageReference Include="axios" Version="0.16.2" />
 		<PackageReference Include="Microsoft.AspNetCore.App" />
 		<PackageReference Include="Microsoft.AspNetCore.Mvc.WebApiCompatShim" Version="2.2.0" />
 		<PackageReference Include="Microsoft.AspNetCore.Owin" Version="2.2.0" />

@@ -116,6 +116,10 @@
             "Swashbuckle.AspNetCore.SwaggerUI": {
               "target": "Package",
               "version": "[4.0.1, )"
+            },
+            "axios": {
+              "target": "Package",
+              "version": "[0.16.2, )"
             }
           },
           "imports": [

@@ -19,6 +19,9 @@
           }
         }
       },
+      "axios/0.16.2": {
+        "type": "package"
+      },
       "Microsoft.AspNet.WebApi.Client/5.2.6": {
         "type": "package",
         "dependencies": {
@@ -5988,6 +5991,19 @@
         "lib/netstandard2.0/AutoMapper.dll",
         "lib/netstandard2.0/AutoMapper.pdb",
         "lib/netstandard2.0/AutoMapper.xml"
+      ]
+    },
+    "axios/0.16.2": {
+      "sha512": "Xp86hC7/Z4CDwlbM0udtI/Q/AKxsQG7EiZItwtqj3KeZKC1xKxNDImtNPB5e7i6PK2EdOfGns5BtVR6u1V/NEQ==",
+      "type": "package",
+      "path": "axios/0.16.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Content/Scripts/axios.js",
+        "Content/Scripts/axios.min.js",
+        "axios.0.16.2.nupkg.sha512",
+        "axios.nuspec"
       ]
     },
     "Microsoft.AspNet.WebApi.Client/5.2.6": {
@@ -14313,7 +14329,8 @@
       "Newtonsoft.Json >= 13.0.1",
       "Ninject >= 3.3.4",
       "Swashbuckle.AspNetCore >= 4.0.1",
-      "Swashbuckle.AspNetCore.SwaggerUI >= 4.0.1"
+      "Swashbuckle.AspNetCore.SwaggerUI >= 4.0.1",
+      "axios >= 0.16.2"
     ]
   },
   "packageFolders": {
@@ -14433,6 +14450,10 @@
           "Swashbuckle.AspNetCore.SwaggerUI": {
             "target": "Package",
             "version": "[4.0.1, )"
+          },
+          "axios": {
+            "target": "Package",
+            "version": "[0.16.2, )"
           }
         },
         "imports": [

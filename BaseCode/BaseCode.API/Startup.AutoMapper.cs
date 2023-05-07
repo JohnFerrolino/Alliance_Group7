@@ -13,8 +13,6 @@ namespace BaseCode.API
         {
             var Config = new MapperConfiguration(cfg =>
             {
-                cfg.CreateMap<Student, StudentViewModel>();
-                cfg.CreateMap<StudentViewModel, Student>();
 
                 cfg.CreateMap<Applicant, Applicant>();
                 cfg.CreateMap<ApplicantViewModel, Applicant>();

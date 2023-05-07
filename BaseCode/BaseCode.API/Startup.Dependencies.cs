@@ -17,8 +17,6 @@ namespace BaseCode.API
             services.AddScoped<ClaimsProvider, ClaimsProvider>();
 
             // Services
-            services.AddScoped<IClientService, ClientService>();            
-            services.AddScoped<IStudentService, StudentService>();
             services.AddScoped<IUserService, UserService>();
             services.AddScoped<IApplicantService, ApplicantService>();
             services.AddScoped<IApplicationService, ApplicationService>();
@@ -26,8 +24,6 @@ namespace BaseCode.API
             services.AddScoped<IStatusService, StatusService>();            
 
             // Repositories
-            services.AddScoped<IClientRepository, ClientRepository>();
-            services.AddScoped<IStudentRepository, StudentRepository>();
             services.AddScoped<IUserRepository, UserRepository>();
             services.AddScoped<IApplicantRepository, ApplicantRepository>();
             services.AddScoped<IApplicationRepository, ApplicationRepository>();

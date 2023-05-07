@@ -53,27 +53,6 @@
         {
             public const string InvalidUserNamePassword = "Invalid username or password.";
         }
-
-        public class Student
-        {
-            // Sort Keys
-            public const string StudentHeaderId = "stud_id";
-            public const string StudentHeaderName = "stud_name";
-            public const string StudentHeaderEmail = "stud_email";
-            public const string StudentHeaderClass = "stud_class";
-            public const string StudentHeaderEnrollYear = "stud_enrollYear";
-            public const string StudentHeaderCity = "stud_city";
-            public const string StudentHeaderCountry = "stud_country";
-
-            // Messages
-            public const string StudentNameExists = "Student name already exists";
-            public const string StudentEntryInvalid = "Student entry is not valid!";
-            public const string StudentNotExist = "Student does not exist.";       
-            public const string StudentDoesNotExists = "Student does not exist.";
-            public const string StudentSuccessAdd = "Student added successfully.";
-            public const string StudentSuccessEdit = "Student is updated successfully.";
-            public const string StudentSuccessDelete = "Student is deleted successfully.";
-        }
         public class Applicant
         {
             // Sort Keys

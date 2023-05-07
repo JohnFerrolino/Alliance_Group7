@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "+b2s1Qhv+2EYG8Ym7ZRrL6eWoT9U4+W/87y6kK4ChScO82o+AECG0DnyZ0y5vvFWEz+UOhPXcZDN/PVD3/l5Xw==",
+  "dgSpecHash": "Jk6WRjH/hsvFn2GYMLTRkkBygVpuax4QhnfumczX2W7I936CtW6yiNpKOATJC73tj0vBVmW3mQjuxzOdsBNCyg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Crim\\Desktop\\Group7_Alliance\\ASP .NET Core API\\BaseCode\\BaseCode.API\\BaseCode.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Crim\\.nuget\\packages\\automapper\\8.0.0\\automapper.8.0.0.nupkg.sha512",
+    "C:\\Users\\Crim\\.nuget\\packages\\axios\\0.16.2\\axios.0.16.2.nupkg.sha512",
     "C:\\Users\\Crim\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.6\\microsoft.aspnet.webapi.client.5.2.6.nupkg.sha512",
     "C:\\Users\\Crim\\.nuget\\packages\\microsoft.aspnetcore\\2.2.0\\microsoft.aspnetcore.2.2.0.nupkg.sha512",
     "C:\\Users\\Crim\\.nuget\\packages\\microsoft.aspnetcore.antiforgery\\2.2.0\\microsoft.aspnetcore.antiforgery.2.2.0.nupkg.sha512",
