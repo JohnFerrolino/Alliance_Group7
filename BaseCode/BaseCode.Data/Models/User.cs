@@ -1,4 +1,7 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore.Metadata.Internal;
+using System;
+using System.ComponentModel.DataAnnotations.Schema;
+using System.ComponentModel.DataAnnotations;
 
 namespace BaseCode.Data.Models
 {
@@ -14,5 +17,6 @@ namespace BaseCode.Data.Models
         public DateTime? CreatedDate { get; set; }
         public string ModifiedBy { get; set; }
         public DateTime? ModifiedDate { get; set; }
+
     }
 }

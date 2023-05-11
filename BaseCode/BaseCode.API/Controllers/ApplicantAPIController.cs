@@ -12,8 +12,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
+using System.Net.Mail;
 using System.Security.Claims;
-using Constants = BaseCode.Data.Constants;
 
 namespace BaseCode.API.Controllers
 {
@@ -80,9 +80,40 @@ namespace BaseCode.API.Controllers
 
                 if (ModelState.IsValid)
                 {
+
+                    var fromEmail = "alliancesoftware.g7@gmail.com";
+                    var fromPassword = "yiznfgwfjdeqvjyo";
+
+                    MailMessage message = new MailMessage();
+                    message.From = new MailAddress(fromEmail);
+                    message.Subject = "[Alliance Job Application] Application Notice";
+                    message.To.Add(new MailAddress(aplModel.EmailAddress));
+                    message.Body = $@"
+                    <html>
+                      <body>
+                        <h1>Thank You for Applying to Alliance Software Inc.</h1>
+                        <p>Dear {aplModel.FirstName},</p>
+                        <p>Thank you for applying for a job position at Alliance Software Inc. We value your interest in our company and the dedication you demonstrated in crafting your application.</p>
+                        <p>We have received your application and will assess it in the upcoming days. If your qualifications meet our criteria, we will get in touch with you to arrange an interview.</p>
+                        <p>Once again, we appreciate your interest in our organization. If you have any inquiries or apprehensions, feel free to contact us.</p>
+                        <p>Best regards,</p>
+                        <p>Alliance Admin</p>
+                      </body>
+                    </html>";
+                    message.IsBodyHtml = true;
+
+                    var smtpClient = new SmtpClient("smtp.gmail.com")
+                    {
+                        Port = 587,
+                        Credentials = new NetworkCredential(fromEmail, fromPassword),
+                        EnableSsl = true,
+                    };
+
+                    smtpClient.Send(message);
                     _aplService.Create(apl);
                     return Helper.ComposeResponse(HttpStatusCode.OK, Constants.Applicant.ApplicantSuccessAdd);
                 }
+
             }
             catch (Exception ex)
             {

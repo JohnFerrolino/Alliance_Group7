@@ -21,8 +21,14 @@ namespace BaseCode.Data.ViewModels.Common
         [RegularExpression("^[a-zA-Z0-9_\\.-]+@([a-zA-Z0-9-]+\\.)+[a-zA-Z]{2,6}$", ErrorMessage = "Email is not valid")]
         public string EmailAddress { get; set; }
 
+        [JsonProperty("applicant_resume")]
+        public string Resume { get; set; }
+
         [JsonProperty("applicant_phonenumber")]
         public string PhoneNumber { get; set; }
+
+        [JsonProperty("applicant_status")]
+        public int StatusID { get; set; }
 
         [JsonProperty("applicant_position")]
         public int PositionID { get; set; }

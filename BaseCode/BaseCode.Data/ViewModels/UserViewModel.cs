@@ -29,5 +29,9 @@ namespace BaseCode.Data.ViewModels
         [Display(Name = "Email")]
         [JsonProperty(PropertyName = "email")]
         public string EmailAddress { get; set; }
+
+        [Required]
+        [JsonProperty(PropertyName = "role")]
+        public string RoleName { get; set; }
     }
 }

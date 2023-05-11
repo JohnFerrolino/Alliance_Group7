@@ -18,8 +18,15 @@ namespace BaseCode.Data.ViewModels.Common
 
         [JsonProperty("applicantphonenumber")]
         public string ApplicantPhoneNumber { get; set; }
+
+        [JsonProperty("applicantresume")]
+        public string ApplicantResume { get; set; }
+
         [JsonProperty("applicantposition")]
         public string ApplicantPosition { get; set; }
+
+        [JsonProperty("applicantstatus")]
+        public string ApplicantStatus { get; set; }
 
         [JsonProperty("page")]
         public int Page { get; set; }

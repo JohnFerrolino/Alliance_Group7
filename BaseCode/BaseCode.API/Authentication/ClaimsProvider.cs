@@ -87,6 +87,6 @@ namespace BaseCode.API.Authentication
             claims.Add(new Claim(ClaimTypes.Name, user.UserID));
 
             return new ClaimsIdentity(claims);
-        }
+        }   
     }
 }

@@ -34,7 +34,9 @@ namespace BaseCode.Data.Repositories
                             (string.IsNullOrEmpty(searchModel.ApplicantLastname) || x.LastName.Contains(searchModel.ApplicantLastname)) &&
                             (string.IsNullOrEmpty(searchModel.ApplicantEmail) || x.EmailAddress.Contains(searchModel.ApplicantEmail)) &&
                             (string.IsNullOrEmpty(searchModel.ApplicantPhoneNumber) || x.PhoneNumber.Contains(searchModel.ApplicantPhoneNumber))&&
-                            (string.IsNullOrEmpty(searchModel.ApplicantPosition) || x.PositionID == Convert.ToInt32(searchModel.ApplicantPosition)))
+                            (string.IsNullOrEmpty(searchModel.ApplicantResume) || x.Resume.Contains(searchModel.ApplicantResume)) &&
+                            (string.IsNullOrEmpty(searchModel.ApplicantPosition) || x.PositionID == Convert.ToInt32(searchModel.ApplicantPosition))&&
+                            (string.IsNullOrEmpty(searchModel.ApplicantStatus) || x.PhoneNumber.Contains(searchModel.ApplicantStatus)))
                             .OrderByPropertyName(sortKey, sortDir);
 
             if (searchModel.Page == 0)
@@ -47,10 +49,12 @@ namespace BaseCode.Data.Repositories
                 .AsEnumerable()
                 .Select(apl => new {
                     id = apl.ApplicantID,
-                    name = apl.FirstName + " " + apl.LastName,
+                    firstname = apl.FirstName,
+                    lastname = apl.LastName,
                     emailaddress = apl.EmailAddress,
                     phonenumber = apl.PhoneNumber,
-                    position = apl.PositionID,
+                    position = apl.PositionID,  
+                    status = apl.StatusID
                 })
                 .ToList();
 
@@ -77,6 +81,7 @@ namespace BaseCode.Data.Repositories
             aplUpdate.EmailAddress = apl.EmailAddress;
             aplUpdate.PhoneNumber = apl.PhoneNumber;
             aplUpdate.PositionID = apl.PositionID;
+            aplUpdate.StatusID = apl.StatusID;
             //this.SetEntityState(student, System.Data.Entity.EntityState.Modified);
             UnitOfWork.SaveChanges();
         }

@@ -56,9 +56,13 @@ namespace BaseCode.Domain.Services
             return _userRepository.FindUserAsync(userName, password);
         }
 
-        public async Task<IdentityResult> RegisterUser(string username, string password, string firstName, string lastName, string email)
+        public async Task<IdentityResult> RegisterUser(string username, string password, string firstName, string lastName, string email, string role)
         {
-            return await _userRepository.RegisterUser(username, password, firstName, lastName, email);
+            return await _userRepository.RegisterUser(username, password, firstName, lastName, email, role);
+        }
+        public async Task<IdentityResult> CreateRole(string roleName)
+        {
+            return await _userRepository.CreateRole(roleName);
         }
 
         public async Task<IdentityUser> FindUser(string username, string password)

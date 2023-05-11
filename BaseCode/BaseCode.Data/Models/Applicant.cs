@@ -23,11 +23,21 @@ namespace BaseCode.Data.Models
         [Column("PhoneNumber")]
         public string PhoneNumber { get; set; }
 
+        [Column("Resume")]
+        public string Resume { get; set; }
+
         [Column("PositionID")]
         public int PositionID { get; set; }
+
+        [Column("StatusID")]
+        public int StatusID { get; set; }
 
         [ForeignKey("PositionID")]
         [JsonIgnore]
         public virtual Position Position { get; set; }
+
+        [ForeignKey("StatusID")]
+        [JsonIgnore]
+        public virtual Position Status { get; set; }
     }
 }

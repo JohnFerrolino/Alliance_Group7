@@ -48,27 +48,6 @@ namespace BaseCode.Data.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "Client",
-                columns: table => new
-                {
-                    ClientID = table.Column<string>(nullable: false),
-                    Secret = table.Column<string>(nullable: true),
-                    Name = table.Column<string>(nullable: true),
-                    ApplicationType = table.Column<bool>(nullable: true),
-                    Active = table.Column<bool>(nullable: true),
-                    RefreshTokenLifeTime = table.Column<int>(nullable: true),
-                    AllowedOrigin = table.Column<string>(nullable: true),
-                    CreatedBy = table.Column<string>(nullable: true),
-                    CreatedDate = table.Column<DateTime>(nullable: true),
-                    ModifiedBy = table.Column<string>(nullable: true),
-                    ModifiedDate = table.Column<DateTime>(nullable: true)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_Client", x => x.ClientID);
-                });
-
-            migrationBuilder.CreateTable(
                 name: "Position",
                 columns: table => new
                 {
@@ -112,30 +91,6 @@ namespace BaseCode.Data.Migrations
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Status", x => x.StatusID);
-                });
-
-            migrationBuilder.CreateTable(
-                name: "Student",
-                columns: table => new
-                {
-                    StudentId = table.Column<int>(nullable: false)
-                        .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
-                    Name = table.Column<string>(nullable: true),
-                    Email = table.Column<string>(nullable: true),
-                    Class = table.Column<string>(nullable: true),
-                    EnrollYear = table.Column<string>(nullable: true),
-                    Subject = table.Column<string>(nullable: true),
-                    City = table.Column<string>(nullable: true),
-                    Country = table.Column<string>(nullable: true),
-                    CreatedBy = table.Column<string>(nullable: true),
-                    CreatedDate = table.Column<DateTime>(nullable: true),
-                    ModifiedBy = table.Column<string>(nullable: true),
-                    ModifiedDate = table.Column<DateTime>(nullable: true),
-                    StudentName = table.Column<string>(type: "varchar(100)", nullable: true)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_Student", x => x.StudentId);
                 });
 
             migrationBuilder.CreateTable(
@@ -274,7 +229,9 @@ namespace BaseCode.Data.Migrations
                     LastName = table.Column<string>(type: "varchar(250)", nullable: true),
                     EmailAddress = table.Column<string>(nullable: true),
                     PhoneNumber = table.Column<string>(nullable: true),
-                    PositionID = table.Column<int>(nullable: false)
+                    Resume = table.Column<string>(nullable: true),
+                    PositionID = table.Column<int>(nullable: false),
+                    StatusID = table.Column<int>(nullable: false)
                 },
                 constraints: table =>
                 {
@@ -282,6 +239,12 @@ namespace BaseCode.Data.Migrations
                     table.ForeignKey(
                         name: "FK_Applicant_Position_PositionID",
                         column: x => x.PositionID,
+                        principalTable: "Position",
+                        principalColumn: "PositionID",
+                        onDelete: ReferentialAction.Restrict);
+                    table.ForeignKey(
+                        name: "FK_Applicant_Position_StatusID",
+                        column: x => x.StatusID,
                         principalTable: "Position",
                         principalColumn: "PositionID",
                         onDelete: ReferentialAction.Restrict);
@@ -314,59 +277,14 @@ namespace BaseCode.Data.Migrations
                         onDelete: ReferentialAction.Restrict);
                 });
 
-            migrationBuilder.CreateTable(
-                name: "Application",
-                columns: table => new
-                {
-                    ApplicationID = table.Column<int>(nullable: false)
-                        .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
-                    ApplicationCode = table.Column<string>(type: "varchar(250)", nullable: true),
-                    PositionID = table.Column<int>(nullable: false),
-                    ApplicantID = table.Column<int>(nullable: false),
-                    StatusID = table.Column<int>(nullable: false),
-                    IsActive = table.Column<bool>(nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_Application", x => x.ApplicationID);
-                    table.ForeignKey(
-                        name: "FK_Application_Applicant_ApplicantID",
-                        column: x => x.ApplicantID,
-                        principalTable: "Applicant",
-                        principalColumn: "ApplicantID",
-                        onDelete: ReferentialAction.Restrict);
-                    table.ForeignKey(
-                        name: "FK_Application_Position_PositionID",
-                        column: x => x.PositionID,
-                        principalTable: "Position",
-                        principalColumn: "PositionID",
-                        onDelete: ReferentialAction.Restrict);
-                    table.ForeignKey(
-                        name: "FK_Application_Status_StatusID",
-                        column: x => x.StatusID,
-                        principalTable: "Status",
-                        principalColumn: "StatusID",
-                        onDelete: ReferentialAction.Restrict);
-                });
-
             migrationBuilder.CreateIndex(
                 name: "IX_Applicant_PositionID",
                 table: "Applicant",
                 column: "PositionID");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Application_ApplicantID",
-                table: "Application",
-                column: "ApplicantID");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_Application_PositionID",
-                table: "Application",
-                column: "PositionID");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_Application_StatusID",
-                table: "Application",
+                name: "IX_Applicant_StatusID",
+                table: "Applicant",
                 column: "StatusID");
 
             migrationBuilder.CreateIndex(
@@ -422,7 +340,7 @@ namespace BaseCode.Data.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "Application");
+                name: "Applicant");
 
             migrationBuilder.DropTable(
                 name: "AspNetRoleClaims");
@@ -440,25 +358,16 @@ namespace BaseCode.Data.Migrations
                 name: "AspNetUserTokens");
 
             migrationBuilder.DropTable(
-                name: "Client");
-
-            migrationBuilder.DropTable(
                 name: "PositionRequirements");
 
             migrationBuilder.DropTable(
                 name: "RefreshToken");
 
             migrationBuilder.DropTable(
-                name: "Student");
+                name: "Status");
 
             migrationBuilder.DropTable(
                 name: "User");
-
-            migrationBuilder.DropTable(
-                name: "Applicant");
-
-            migrationBuilder.DropTable(
-                name: "Status");
 
             migrationBuilder.DropTable(
                 name: "AspNetRoles");

@@ -31,10 +31,26 @@ namespace BaseCode.API.Controllers
                 return Helper.ComposeResponse(HttpStatusCode.BadRequest, Helper.GetModelStateErrors(ModelState));
             }
 
-            var result = await _userService.RegisterUser(userModel.UserName, userModel.Password, userModel.FirstName, userModel.LastName, userModel.EmailAddress);
+            var result = await _userService.RegisterUser(userModel.UserName, userModel.Password, userModel.FirstName, userModel.LastName, userModel.EmailAddress, userModel.RoleName);
             var errorResult = GetErrorResult(result);
 
             return errorResult ? Helper.ComposeResponse(HttpStatusCode.BadRequest, ModelState) : Helper.ComposeResponse(HttpStatusCode.OK, "Successfully added user");
+        }
+
+        [AllowAnonymous]
+        [HttpPost]
+        [ActionName("roles")]
+        public async Task<HttpResponseMessage> PostCreateRole(string role)
+        {
+            if (string.IsNullOrEmpty(role))
+            {
+                return Helper.ComposeResponse(HttpStatusCode.BadRequest, Constants.Common.InvalidRole);
+            }
+
+            var result = await _userService.CreateRole(role);
+            var errorResult = GetErrorResult(result);
+
+            return errorResult ? Helper.ComposeResponse(HttpStatusCode.BadRequest, Constants.Common.InvalidRole) : Helper.ComposeResponse(HttpStatusCode.OK, "Successfully added role");
         }
 
         private bool GetErrorResult(IdentityResult result)

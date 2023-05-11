@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace BaseCode.Data.Migrations
 {
     [DbContext(typeof(BaseCodeEntities))]
-    [Migration("20230507123000_init")]
+    [Migration("20230511132150_init")]
     partial class init
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -45,75 +45,19 @@ namespace BaseCode.Data.Migrations
                     b.Property<int>("PositionID")
                         .HasColumnName("PositionID");
 
-                    b.HasKey("ApplicantID");
-
-                    b.HasIndex("PositionID");
-
-                    b.ToTable("Applicant");
-                });
-
-            modelBuilder.Entity("BaseCode.Data.Models.Application", b =>
-                {
-                    b.Property<int>("ApplicationID")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnName("ApplicationID")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<int>("ApplicantID")
-                        .HasColumnName("ApplicantID");
-
-                    b.Property<string>("ApplicationCode")
-                        .HasColumnName("ApplicationCode")
-                        .HasColumnType("varchar(250)");
-
-                    b.Property<bool>("IsActive")
-                        .HasColumnName("IsActive");
-
-                    b.Property<int>("PositionID")
-                        .HasColumnName("PositionID");
+                    b.Property<string>("Resume")
+                        .HasColumnName("Resume");
 
                     b.Property<int>("StatusID")
                         .HasColumnName("StatusID");
 
-                    b.HasKey("ApplicationID");
-
-                    b.HasIndex("ApplicantID");
+                    b.HasKey("ApplicantID");
 
                     b.HasIndex("PositionID");
 
                     b.HasIndex("StatusID");
 
-                    b.ToTable("Application");
-                });
-
-            modelBuilder.Entity("BaseCode.Data.Models.Client", b =>
-                {
-                    b.Property<string>("ClientID")
-                        .ValueGeneratedOnAdd();
-
-                    b.Property<bool?>("Active");
-
-                    b.Property<string>("AllowedOrigin");
-
-                    b.Property<bool?>("ApplicationType");
-
-                    b.Property<string>("CreatedBy");
-
-                    b.Property<DateTime?>("CreatedDate");
-
-                    b.Property<string>("ModifiedBy");
-
-                    b.Property<DateTime?>("ModifiedDate");
-
-                    b.Property<string>("Name");
-
-                    b.Property<int?>("RefreshTokenLifeTime");
-
-                    b.Property<string>("Secret");
-
-                    b.HasKey("ClientID");
-
-                    b.ToTable("Client");
+                    b.ToTable("Applicant");
                 });
 
             modelBuilder.Entity("BaseCode.Data.Models.Position", b =>
@@ -202,43 +146,6 @@ namespace BaseCode.Data.Migrations
                     b.HasKey("StatusID");
 
                     b.ToTable("Status");
-                });
-
-            modelBuilder.Entity("BaseCode.Data.Models.Student", b =>
-                {
-                    b.Property<int>("StudentId")
-                        .ValueGeneratedOnAdd()
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<string>("City");
-
-                    b.Property<string>("Class");
-
-                    b.Property<string>("Country");
-
-                    b.Property<string>("CreatedBy");
-
-                    b.Property<DateTime?>("CreatedDate");
-
-                    b.Property<string>("Email");
-
-                    b.Property<string>("EnrollYear");
-
-                    b.Property<string>("ModifiedBy");
-
-                    b.Property<DateTime?>("ModifiedDate");
-
-                    b.Property<string>("Name");
-
-                    b.Property<string>("StudentName")
-                        .HasColumnName("StudentName")
-                        .HasColumnType("varchar(100)");
-
-                    b.Property<string>("Subject");
-
-                    b.HasKey("StudentId");
-
-                    b.ToTable("Student");
                 });
 
             modelBuilder.Entity("BaseCode.Data.Models.User", b =>
@@ -436,21 +343,8 @@ namespace BaseCode.Data.Migrations
                         .WithMany()
                         .HasForeignKey("PositionID")
                         .OnDelete(DeleteBehavior.Restrict);
-                });
 
-            modelBuilder.Entity("BaseCode.Data.Models.Application", b =>
-                {
-                    b.HasOne("BaseCode.Data.Models.Applicant", "Applicant")
-                        .WithMany()
-                        .HasForeignKey("ApplicantID")
-                        .OnDelete(DeleteBehavior.Restrict);
-
-                    b.HasOne("BaseCode.Data.Models.Position", "Position")
-                        .WithMany()
-                        .HasForeignKey("PositionID")
-                        .OnDelete(DeleteBehavior.Restrict);
-
-                    b.HasOne("BaseCode.Data.Models.Status", "Status")
+                    b.HasOne("BaseCode.Data.Models.Position", "Status")
                         .WithMany()
                         .HasForeignKey("StatusID")
                         .OnDelete(DeleteBehavior.Restrict);

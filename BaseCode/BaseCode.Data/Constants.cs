@@ -44,9 +44,17 @@
             public const string ClientID = "ClientID";
             public const string ClientSecret = "ClientSecret";
             public const string JSONContentType = "application/json";
+            public const string Bearer = "Bearer";
 
             // Messages
             public const string BadRequest = "Bad Request";
+            public const string InvalidRole = "Invalid Role";
+        }
+        public class Roles
+        {
+            public const string Admin = "Administrator";
+            public const string User = "User";
+
         }
 
         public class User

@@ -14,7 +14,8 @@ namespace BaseCode.Data.Contracts
         bool Create(User user);
         bool Update(User user);
         void Delete(User user);
-        Task<IdentityResult> RegisterUser(string username, string password, string firstName, string lastName, string email);
+        Task<IdentityResult> RegisterUser(string username, string password, string firstName, string lastName, string email, string role);
+        Task<IdentityResult> CreateRole(string roleName);
         Task<IdentityUser> FindUser(string userName, string password);
         Task<User> FindUserAsync(string userName, string password);
     }

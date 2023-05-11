@@ -91,12 +91,12 @@ namespace BaseCode.API.Authentication
             var userRole = db.UserRoles
                            .SingleOrDefault(i => i.UserId == id);
 
-            if (userRole == null)
-            {
-                context.Response.StatusCode = (int)HttpStatusCode.BadRequest;
-                await context.Response.WriteAsync("No user role");
-                return;
-            }
+            //if (userRole == null)
+            //{
+            //    context.Response.StatusCode = (int)HttpStatusCode.BadRequest;
+            //    await context.Response.WriteAsync("No user role");
+            //    return;
+            //}
 
             context.Response.Clear();
             var response = GetAuthResponse.Execute(identity, db, userDb, refreshTokenModel);
